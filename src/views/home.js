@@ -21,10 +21,10 @@ const Home = (props) => {
             <a href="#about" className="home-link">
               About
             </a>
-            <a href="#works" className="home-link1">
+            <a href="#works" className="home-link01">
               Works
             </a>
-            <a href="#contact" className="home-link2">
+            <a href="#contact" className="home-link02">
               Contact
             </a>
           </nav>
@@ -78,7 +78,7 @@ const Home = (props) => {
             </span>
           </span>
           <div className="home-btn-group">
-            <a href="#about" className="home-link3 button">
+            <a href="#about" className="home-link03 button">
               Find out more
             </a>
           </div>
@@ -110,7 +110,7 @@ const Home = (props) => {
               <br></br>
             </span>
           </div>
-          <a href="#works" className="home-link4 button">
+          <a href="#works" className="home-link04 button">
             Check out My Portfolio
           </a>
         </div>
@@ -120,36 +120,66 @@ const Home = (props) => {
           <span>Featured Works</span>
           <br></br>
         </h1>
-        <div className="home-container05">
-          <div className="home-container06">
-            <h1 className="home-text15">Prosthetic Leg Team</h1>
-            <span className="home-text16">Python, C++, ROS2</span>
+        <a
+          href="https://github.com/packbionics"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="home-container05">
+            <div className="home-container06">
+              <h1 className="home-text15">Prosthetic Leg Team</h1>
+              <span className="home-text16">Python, C++, ROS2</span>
+            </div>
           </div>
-        </div>
-        <div className="home-container07">
-          <div className="home-container08">
-            <h1 className="home-text17">Mini Minecraft</h1>
-            <span className="home-text18">C++, OpenGL</span>
+        </a>
+        <a
+          href="https://github.com/JChunX/Mycraft"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="home-container07">
+            <div className="home-container08">
+              <h1 className="home-text17">Mini Minecraft</h1>
+              <span className="home-text18">C++, OpenGL</span>
+            </div>
           </div>
-        </div>
-        <div className="home-container09">
-          <div className="home-container10">
-            <h1 className="home-text19">Wearable Sleep Tracker</h1>
-            <span className="home-text20">C++, Swift/SwiftUI</span>
+        </a>
+        <a
+          href="https://github.com/peachbiotech"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="home-container09">
+            <div className="home-container10">
+              <h1 className="home-text19">Wearable Sleep Tracker</h1>
+              <span className="home-text20">C++, Swift/SwiftUI</span>
+            </div>
           </div>
-        </div>
-        <div className="home-container11">
-          <div className="home-container12">
-            <h1 className="home-text21">Ground Slope Prediction</h1>
-            <span className="home-text22">Python, Tensorflow</span>
+        </a>
+        <a
+          href="https://github.com/JChunX/slope-predict"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="home-container11">
+            <div className="home-container12">
+              <h1 className="home-text21">Ground Slope Prediction</h1>
+              <span className="home-text22">Python, Tensorflow</span>
+            </div>
           </div>
-        </div>
-        <div className="home-container13">
-          <div className="home-container14">
-            <h1 className="home-text23">IMU Sensor Fusion</h1>
-            <span className="home-text24">C++</span>
+        </a>
+        <a
+          href="https://github.com/JChunX/imu-kalman"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="home-container13">
+            <div className="home-container14">
+              <h1 className="home-text23">IMU Sensor Fusion</h1>
+              <span className="home-text24">C++</span>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div id="contact" className="home-hero2">
         <span className="home-text25">
