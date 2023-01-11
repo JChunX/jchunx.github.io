@@ -11,7 +11,7 @@
   --dl-color-gray-white: #FFFFFF;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
-  --dl-size-size-xsmall: 12px;
+  --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
   --dl-color-primary-100: #003EB3;
   --dl-color-primary-300: #0074F0;
@@ -74,19 +74,20 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: none !important;
 }
-.content {
-  font-size: 16px;
+.Heading {
+  font-size: 32px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
 }
-.heading {
-  font-size: 32px;
+.Content {
+  font-size: 16px;
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
